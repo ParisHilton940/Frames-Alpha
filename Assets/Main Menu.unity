@@ -342,15 +342,16 @@ GameObject:
   m_Component:
   - component: {fileID: 1067415079}
   - component: {fileID: 1067415078}
-  - component: {fileID: 1067415077}
   - component: {fileID: 1067415083}
   - component: {fileID: 1067415081}
-  - component: {fileID: 1067415084}
   - component: {fileID: 1067415080}
-  - component: {fileID: 1067415082}
   - component: {fileID: 1067415076}
   - component: {fileID: 1067415086}
   - component: {fileID: 1067415085}
+  - component: {fileID: 1067415088}
+  - component: {fileID: 1067415087}
+  - component: {fileID: 1067415089}
+  - component: {fileID: 1067415077}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -376,31 +377,25 @@ MonoBehaviour:
   waitFrames: 1
 --- !u!114 &1067415077
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067415075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 67
-    y: 70
-    width: 111
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 0
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 1067415082}
-  commandList:
-  - {fileID: 1067415084}
-  suppressAllAutoSelections: 0
+  itemId: 10
+  indentLevel: 0
+  duration: 1
+  targetView: {fileID: 1773487159}
+  waitUntilFinished: 1
+  targetCamera: {fileID: 0}
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!114 &1067415078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,11 +409,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 38, y: 38.5}
+  scrollPos: {x: -53.248837, y: 30.154182}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: 0.9745
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -426,7 +421,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1067415077}
+  - {fileID: 1067415083}
   selectedCommands: []
   variables: []
   description: 
@@ -460,7 +455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067415075}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
@@ -490,22 +485,6 @@ MonoBehaviour:
     stringVal: Room1 demo
   loadingImage: {fileID: 0}
   sceneNameOLD: 
---- !u!114 &1067415082
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067415075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1067415077}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1815599631}
-  waitFrames: 1
 --- !u!114 &1067415083
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -522,7 +501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 194
     y: 68
-    width: 117
+    width: 118.753204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -531,32 +510,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1067415076}
   commandList:
+  - {fileID: 1067415077}
   - {fileID: 1067415080}
   - {fileID: 1067415086}
   - {fileID: 1067415085}
   - {fileID: 1067415081}
   suppressAllAutoSelections: 0
---- !u!114 &1067415084
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067415075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 1773487159}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &1067415085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -564,7 +523,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067415075}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
@@ -595,6 +554,68 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1067415087
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067415075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  duration: 0.3
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &1067415088
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067415075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 327.23544
+    y: 68.35788
+    width: 119.77937
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 8
+  blockName: New Block2
+  description: 
+  eventHandler: {fileID: 1067415089}
+  commandList:
+  - {fileID: 1067415087}
+  suppressAllAutoSelections: 0
+--- !u!114 &1067415089
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067415075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1067415088}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &1275282583
 GameObject:
   m_ObjectHideFlags: 0
