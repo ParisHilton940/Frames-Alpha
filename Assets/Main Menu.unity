@@ -352,6 +352,7 @@ GameObject:
   - component: {fileID: 1067415087}
   - component: {fileID: 1067415089}
   - component: {fileID: 1067415077}
+  - component: {fileID: 1067415082}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -422,7 +423,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1067415083}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1067415082}
   variables: []
   description: 
   stepPause: 0
@@ -485,6 +487,23 @@ MonoBehaviour:
     stringVal: Room1 demo
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1067415082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067415075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: d5509e81a1facd34189ffc790006108a, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &1067415083
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -510,6 +529,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1067415076}
   commandList:
+  - {fileID: 1067415082}
   - {fileID: 1067415077}
   - {fileID: 1067415080}
   - {fileID: 1067415086}
