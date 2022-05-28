@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 21f4e356c66a4e84993954c4ea669e24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1561140832422909232
+    second: anteAperte
+  - first:
+      213: 3134377632402857466
+    second: spritesheetArmadio_1
+  - first:
+      213: -7814453428000735985
+    second: antaDxApertaChiaveSx
+  - first:
+      213: 9072934898444588168
+    second: spritesheetArmadio_3
+  - first:
+      213: 7414170107563085424
+    second: antaDxAperta
+  - first:
+      213: 3101121195046895979
+    second: spritesheetArmadio_5
+  - first:
+      213: -8225375472691683751
+    second: antaSxAperta
+  - first:
+      213: 5119324458943168752
+    second: cassettoApertoEntrambeChiavi
+  - first:
+      213: -4836025492962143904
+    second: antaSxApertaChiaveDx
+  - first:
+      213: 381614694658456440
+    second: tuttoChiuso
+  - first:
+      213: -2229724712487996606
+    second: cassettoAperto
+  - first:
+      213: 7447847329892983216
+    second: tuttoChiusoChiaveDx
+  - first:
+      213: -8022275302228757272
+    second: tuttoChiusoChiaveSx
+  - first:
+      213: 6204462615467188103
+    second: tuttoChiusoEntrambeChiavi
+  - first:
+      213: -6234319783137365334
+    second: spritesheetArmadio_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anteAperte
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1986
+        width: 1390
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035dce8d0594aa510800000000000000
+      internalID: 1561140832422909232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetArmadio_1
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2288
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd5d4b99db8f7b20800000000000000
+      internalID: 3134377632402857466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antaDxApertaChiaveSx
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 2032
+        width: 897
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dbe2e820c7d8390800000000000000
+      internalID: -7814453428000735985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetArmadio_3
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 2286
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884d80c383a89ed70800000000000000
+      internalID: 9072934898444588168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antaDxAperta
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 2032
+        width: 896
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0e9d4e6c64e660800000000000000
+      internalID: 7414170107563085424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetArmadio_5
+      rect:
+        serializedVersion: 2
+        x: 4640
+        y: 2286
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618434eb45690b20800000000000000
+      internalID: 3101121195046895979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antaSxAperta
+      rect:
+        serializedVersion: 2
+        x: 5137
+        y: 2032
+        width: 1399
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e5006669899dd80800000000000000
+      internalID: -8225375472691683751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cassettoApertoEntrambeChiavi
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1099
+        width: 926
+        height: 885
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 107, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c649d87e7b0740800000000000000
+      internalID: 5119324458943168752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antaSxApertaChiaveDx
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1107
+        width: 940
+        height: 877
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061124fbf6cf2ecb0800000000000000
+      internalID: -4836025492962143904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuttoChiuso
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1107
+        width: 724
+        height: 877
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bbf2cfa84cb4500800000000000000
+      internalID: 381614694658456440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cassettoAperto
+      rect:
+        serializedVersion: 2
+        x: 5296
+        y: 1107
+        width: 746
+        height: 877
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2433e35003d6e01e0800000000000000
+      internalID: -2229724712487996606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuttoChiusoChiaveDx
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 34
+        width: 844
+        height: 1021
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1ec97afa11c5760800000000000000
+      internalID: 7447847329892983216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuttoChiusoChiaveSx
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 34
+        width: 845
+        height: 1021
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4f340dd172ba090800000000000000
+      internalID: -8022275302228757272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuttoChiusoEntrambeChiavi
+      rect:
+        serializedVersion: 2
+        x: 4278
+        y: 34
+        width: 843
+        height: 1021
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fdc1940edaa1650800000000000000
+      internalID: 6204462615467188103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetArmadio_14
+      rect:
+        serializedVersion: 2
+        x: 5609
+        y: 0
+        width: 927
+        height: 1084
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa238e5203f3b79a0800000000000000
+      internalID: -6234319783137365334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,7 +1,19 @@
 fileFormatVersion: 2
-guid: 8b97220b3bffaf645a3c4a16a9518748
+guid: 00a470c3ecfdf594593ee86eed11d31b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5411428329810433476
+    second: tuttoChiuso
+  - first:
+      213: 8459660138786547994
+    second: cassettoAperto
+  - first:
+      213: -2787089392847899857
+    second: antaDxAperta
+  - first:
+      213: 1261001461774383535
+    second: antaSxAperta
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -89,7 +101,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tuttoChiuso
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1152
+        width: 671
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c516dd1561491b40800000000000000
+      internalID: 5411428329810433476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cassettoAperto
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1155
+        width: 769
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1967e43310c66570800000000000000
+      internalID: 8459660138786547994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antaDxAperta
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 66
+        width: 813
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23ba0eb6f44259d0800000000000000
+      internalID: -2787089392847899857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: antaSxAperta
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 66
+        width: 674
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa97f4ef52aff7110800000000000000
+      internalID: 1261001461774383535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
